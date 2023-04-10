@@ -89,7 +89,7 @@
 				8B2331C22724B5ED0049F4E5 /* AppDelegate.swift */,
 				8B2331C42724B5ED0049F4E5 /* SceneDelegate.swift */,
 				8B82007F2734684D00479EB7 /* Cells */,
-				8BBB3C13273040A400419210 /* Classes */,
+				8BBB3C13273040A400419210 /* Models */,
 				8BBB3C0E273037C400419210 /* View Controllers */,
 				8BBB3C0D273037BA00419210 /* Helpers */,
 				8B2331C82724B5ED0049F4E5 /* Main.storyboard */,
@@ -134,14 +134,14 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		8BBB3C13273040A400419210 /* Classes */ = {
+		8BBB3C13273040A400419210 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				8BBB3C14273040B300419210 /* Course.swift */,
 				8BBB569D2737BFBD00D8B16C /* Section.swift */,
 				8B484D21273509FA00FAA18B /* Topics.swift */,
 			);
-			path = Classes;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
