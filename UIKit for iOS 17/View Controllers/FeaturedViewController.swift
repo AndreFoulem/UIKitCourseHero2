@@ -23,6 +23,7 @@ class FeaturedViewController: UIViewController {
     
     private var tokens: Set<AnyCancellable> = []
     private var lastScrollYPosition: CGFloat = 0
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,39 +31,39 @@ class FeaturedViewController: UIViewController {
         self.handbooksCollectionView.delegate = self
         self.handbooksCollectionView.dataSource = self
         self.handbooksCollectionView.layer.masksToBounds = false
-        
+
         // Table View
         self.coursesTableView.delegate = self
         self.coursesTableView.dataSource = self
         self.coursesTableView.layer.masksToBounds = false
-        
+
         // Subscribe to table view changes
         coursesTableView.publisher(for: \.contentSize)
             .sink { contentSize in
                 self.tableViewHeight.constant = contentSize.height
             }
             .store(in: &tokens)
-        
+
         // Scroll View
         self.scrollView.delegate = self
-        
+
         // Accessibility
         featuredTitleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
         featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
         featuredTitleLabel.adjustsFontForContentSizeCategory = true
-        
+
         infoLabel.maximumContentSizeCategory = .accessibilityMedium
         infoLabel.font = UIFont.preferredFont(for: .footnote, weight: .bold)
         infoLabel.adjustsFontForContentSizeCategory = true
-        
+
         previewLabel.maximumContentSizeCategory = .accessibilityMedium
         previewLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
         previewLabel.adjustsFontForContentSizeCategory = true
-        
+
         handbooksLabel.maximumContentSizeCategory = .accessibilityMedium
         handbooksLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
         handbooksLabel.adjustsFontForContentSizeCategory = true
-        
+
         coursesLabel.maximumContentSizeCategory = .accessibilityMedium
         coursesLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
         coursesLabel.adjustsFontForContentSizeCategory = true
