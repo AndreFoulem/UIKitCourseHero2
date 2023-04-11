@@ -71,7 +71,7 @@ class NotificationViewController: UIViewController {
 
         for docSnapshot in docs.documents {
             let data = try docSnapshot.data(as: NotificationModel.self)
-            notifications.append(data!)
+            notifications.append(data)
         }
 
         self.currentSnapshot.appendItems(notifications, toSection: .main)

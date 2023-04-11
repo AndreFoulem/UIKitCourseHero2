@@ -41,6 +41,9 @@
 		900E65D929E5C0390015A228 /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E65D329E5C0390015A228 /* SectionTableViewCell.swift */; };
 		900E65DB29E5C0530015A228 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E65DA29E5C0530015A228 /* Notification.swift */; };
 		900E65DD29E5C0600015A228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E65DC29E5C0600015A228 /* SceneDelegate.swift */; };
+		90D6F3EE29E5F64D00BF80DE /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D6F3EB29E5F64D00BF80DE /* FlipView.swift */; };
+		90D6F3EF29E5F64D00BF80DE /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D6F3EC29E5F64D00BF80DE /* CertificateItem.swift */; };
+		90D6F3F029E5F64D00BF80DE /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D6F3ED29E5F64D00BF80DE /* CertificateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +76,9 @@
 		900E65D329E5C0390015A228 /* SectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
 		900E65DA29E5C0530015A228 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		900E65DC29E5C0600015A228 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../assets/COURSES/UIKITpart1/UIKIT PART 2/Completed Project/UIKit for iOS 15/SceneDelegate.swift"; sourceTree = "<group>"; };
+		90D6F3EB29E5F64D00BF80DE /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		90D6F3EC29E5F64D00BF80DE /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
+		90D6F3ED29E5F64D00BF80DE /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 			children = (
 				8B2331C22724B5ED0049F4E5 /* AppDelegate.swift */,
 				900E65DC29E5C0600015A228 /* SceneDelegate.swift */,
+				90D6F3E829E5F5CE00BF80DE /* Views */,
 				900E65CD29E5C0390015A228 /* Cells */,
 				8BBB3C13273040A400419210 /* Models */,
 				900E65AA29E5BFE60015A228 /* View Controllers */,
@@ -177,6 +184,16 @@
 			);
 			name = Cells;
 			path = Cells/Cells;
+			sourceTree = "<group>";
+		};
+		90D6F3E829E5F5CE00BF80DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90D6F3EC29E5F64D00BF80DE /* CertificateItem.swift */,
+				90D6F3ED29E5F64D00BF80DE /* CertificateView.swift */,
+				90D6F3EB29E5F64D00BF80DE /* FlipView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,11 +287,14 @@
 				8BBB3C15273040B300419210 /* Course.swift in Sources */,
 				900E65D829E5C0390015A228 /* HandbookCollectionViewCell.swift in Sources */,
 				8B2331C32724B5ED0049F4E5 /* AppDelegate.swift in Sources */,
+				90D6F3EE29E5F64D00BF80DE /* FlipView.swift in Sources */,
 				900E65D929E5C0390015A228 /* SectionTableViewCell.swift in Sources */,
 				900E65B529E5BFE60015A228 /* FeaturedViewController.swift in Sources */,
+				90D6F3EF29E5F64D00BF80DE /* CertificateItem.swift in Sources */,
 				900E65C129E5C0230015A228 /* CustomTabBarViewController.swift in Sources */,
 				900E65DD29E5C0600015A228 /* SceneDelegate.swift in Sources */,
 				900E65D629E5C0390015A228 /* TopicTableViewCell.swift in Sources */,
+				90D6F3F029E5F64D00BF80DE /* CertificateView.swift in Sources */,
 				900E65B429E5BFE60015A228 /* LoginViewController.swift in Sources */,
 				8B484D22273509FA00FAA18B /* Topics.swift in Sources */,
 				900E65B229E5BFE60015A228 /* ExploreViewController.swift in Sources */,
