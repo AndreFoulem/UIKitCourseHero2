@@ -1,6 +1,6 @@
 //
 //  Section.swift
-//  UIKit for iOS 15
+//  UIKit for iOS 17
 //
 //  Created by Andre Foulem
 //

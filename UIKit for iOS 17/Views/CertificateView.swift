@@ -2,7 +2,7 @@
 //  CertificateView.swift
 //  UIKit for iOS 15
 //
-//  Created by Sai Kambampati on 1/9/22.
+//  Created by Andre Foulem
 //
 
 import SwiftUI

@@ -1,8 +1,8 @@
 //
 //  LibraryViewController.swift
-//  UIKit for iOS 15
+//  UIKit for iOS 17
 //
-//  Created by Sai Kambampati on 1/8/22.
+//  Created by Andre Foulem
 //
 
 import UIKit

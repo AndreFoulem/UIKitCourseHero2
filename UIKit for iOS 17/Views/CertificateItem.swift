@@ -1,8 +1,8 @@
 //
 //  CardView.swift
-//  DesignCodeUniversal
+//  Andre Foulem
 //
-//  Created by Meng To on 7/7/20.
+//  Created by Andre Foulem
 //
 
 import SwiftUI
