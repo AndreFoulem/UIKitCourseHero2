@@ -581,11 +581,64 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background 6" translatesAutoresizingMaskIntoConstraints="NO" id="Zvn-BV-Pw6">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJq-iv-ljh" customClass="CustomView" customModule="UIKit_for_iOS_17" customModuleProvider="target">
+                                <rect key="frame" x="20" y="198" width="374" height="500"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LxV-yZ-bku" customClass="CustomBlurView" customModule="UIKit_for_iOS_17" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="500"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="TYd-lK-8ZK">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="500"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="regular"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" name="BlurBackground"/>
+                                <constraints>
+                                    <constraint firstItem="LxV-yZ-bku" firstAttribute="leading" secondItem="QJq-iv-ljh" secondAttribute="leading" id="UQO-tp-1pp"/>
+                                    <constraint firstAttribute="trailing" secondItem="LxV-yZ-bku" secondAttribute="trailing" id="db0-9l-RhV"/>
+                                    <constraint firstAttribute="bottom" secondItem="LxV-yZ-bku" secondAttribute="bottom" id="e07-AY-5bQ"/>
+                                    <constraint firstItem="LxV-yZ-bku" firstAttribute="top" secondItem="QJq-iv-ljh" secondAttribute="top" id="kVr-uJ-pd7"/>
+                                    <constraint firstAttribute="height" constant="500" id="pNy-lN-caJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.14999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" name="Shadow"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffset">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="quaternaryLabelColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u8S-iW-StW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="QJq-iv-ljh" firstAttribute="centerX" secondItem="5XY-XJ-qjU" secondAttribute="centerX" id="Bcg-9e-25E"/>
                             <constraint firstItem="Zvn-BV-Pw6" firstAttribute="leading" secondItem="u8S-iW-StW" secondAttribute="leading" id="Edb-6S-bCB"/>
+                            <constraint firstItem="QJq-iv-ljh" firstAttribute="leading" secondItem="u8S-iW-StW" secondAttribute="leading" constant="20" id="Rg8-Bd-pbF"/>
+                            <constraint firstItem="u8S-iW-StW" firstAttribute="trailing" secondItem="QJq-iv-ljh" secondAttribute="trailing" constant="20" id="ffi-Mf-a2B"/>
+                            <constraint firstItem="QJq-iv-ljh" firstAttribute="centerY" secondItem="5XY-XJ-qjU" secondAttribute="centerY" id="jIE-fK-jOB"/>
                             <constraint firstItem="Zvn-BV-Pw6" firstAttribute="trailing" secondItem="u8S-iW-StW" secondAttribute="trailing" id="mw6-bZ-NHy"/>
                             <constraint firstItem="Zvn-BV-Pw6" firstAttribute="top" secondItem="5XY-XJ-qjU" secondAttribute="top" id="uaF-da-Y0y"/>
                             <constraint firstAttribute="bottom" secondItem="Zvn-BV-Pw6" secondAttribute="bottom" id="y6c-h4-4Kq"/>
@@ -1642,6 +1695,9 @@
         <namedColor name="TabBarTint">
             <color red="0.38400000333786011" green="0.20399999618530273" blue="0.83499997854232788" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <systemColor name="quaternaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17647058823529413" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
