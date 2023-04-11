@@ -76,6 +76,9 @@ class NotificationViewController: UIViewController {
 
         self.currentSnapshot.appendItems(notifications, toSection: .main)
         await self.dataSource.apply(currentSnapshot, animatingDifferences: true)
+      DispatchQueue.main.async {
+        self.cardView.alpha = 1
+      }
     }
 }
 
