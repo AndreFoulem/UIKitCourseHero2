@@ -44,5 +44,3 @@
 ## Contact
 
 André Foulem - [MyTwitter](https://twitter.com/andreincolors) - [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-foulem-845087244/)
-
-<div><a href="https://www.google.ca" target="_blank">google</a></div>
