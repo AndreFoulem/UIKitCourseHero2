@@ -20,7 +20,7 @@
 
 ![screenshot](images/screenshot.png)
 
-### Project Focus: CourseHero's goal is to implement an app with UIKit with navigation and data. Firebase is used for authentication and In-App notifications.
+#### Project Focus: CourseHero's goal is to implement an app with UIKit with navigation and data. Firebase is used for authentication and In-App notifications.
 
 #
 
