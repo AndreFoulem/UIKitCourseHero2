@@ -1651,12 +1651,12 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BV1-Qt-3TQ" customClass="CustomView" customModule="UIKit_for_iOS_17" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="235.33333333333331" width="358" height="202.33333333333331"/>
+                                        <rect key="frame" x="16" y="234.33333333333331" width="358" height="203.33333333333331"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="923-NP-jpm" customClass="CustomBlurView" customModule="UIKit_for_iOS_17" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="358" height="202.33333333333334"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="358" height="203.33333333333334"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vtv-k0-kqR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="202.33333333333334"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="203.33333333333334"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sOZ-oS-b2i" customClass="CustomView" customModule="UIKit_for_iOS_17" customModuleProvider="target">
